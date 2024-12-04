@@ -1,0 +1,48 @@
+/*!
+Theme Name: Storefront Child
+Template: storefront
+Theme URI:    https://woocommerce.com/products/storefront/
+Author:       Automattic
+Author URI:   https://woocommerce.com/
+Description:  Only for AbeloHost Assignment by Aaron. LETS DO THIS !!!
+Version:      4.6.0
+Tested up to: 6.5
+Requires PHP: 5.6.0
+License:      GNU General Public License v3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain:  storefront
+*//*!
+This is merely a style css for the custom table.
+*/
+.cities-search-container {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.bulk-actions-dropdown {
+    margin-bottom: 1rem;
+}
+
+#countries-cities-table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+#countries-cities-table-container th,
+#countries-cities-table-container td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#countries-cities-table-container th {
+    background-color: #f4f4f4;
+}
+
+.custom-content-before,
+.custom-content-after {
+    text-align: center;
+    margin: 1rem 0;
+    font-style: italic;
+}
